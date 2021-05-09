@@ -63,6 +63,12 @@
   height: 15px;
   border: 2px solid $title-text-color;
   border-radius: 2px;
+
+  @include transition(border);
+
+  .consent__checkbox:focus ~ & {
+    border: 2px solid $accent-color;
+  }
 }
 .consent__check {
   position: absolute;

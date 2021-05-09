@@ -134,8 +134,8 @@ textarea {
   padding-bottom: 32px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  -webkit-transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav__link:hover, .site-nav__link:focus,
@@ -209,8 +209,8 @@ textarea {
   border-radius: 4px;
   min-width: 200px;
   padding: 10px;
-  -webkit-transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover, .button:focus {
@@ -425,8 +425,8 @@ textarea {
   color: #afb1b8;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -469,8 +469,8 @@ textarea {
   color: #afb1b8;
   -webkit-transition-property: color, border;
   transition-property: color, border;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -531,8 +531,8 @@ textarea {
 
 .address__address,
 .address__contacts {
-  -webkit-transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address__address:hover, .address__address:focus,
@@ -558,8 +558,8 @@ textarea {
   font-size: 16px;
   line-height: 1.25;
   color: white;
-  -webkit-transition: border 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe__input:-webkit-autofill, .subscribe__input:-webkit-autofill:hover, .subscribe__input:-webkit-autofill:focus {
@@ -613,8 +613,8 @@ textarea {
   pointer-events: none;
   -webkit-transition-property: visibility, opacity;
   transition-property: visibility, opacity;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -644,8 +644,8 @@ textarea {
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -660,8 +660,8 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  -webkit-transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__close:hover, .modal__close:focus {
@@ -708,8 +708,8 @@ textarea {
   background: transparent;
   -webkit-transition-property: outline, border;
   transition-property: outline, border;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -749,8 +749,8 @@ textarea {
   bottom: 11px;
   left: 12px;
   fill: #212121;
-  -webkit-transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form__input:focus + .form__icon {
@@ -775,6 +775,12 @@ textarea {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.consent__checkbox:focus ~ .consent__unchecked {
+  border: 2px solid #2196f3;
 }
 
 .consent__check {
@@ -784,8 +790,8 @@ textarea {
   border-radius: 2px;
   background-origin: border-box;
   opacity: 0;
-  -webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .consent__checkbox:checked + .consent__check {
@@ -821,8 +827,8 @@ textarea {
   transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, box-shadow;
   transition-property: color, background-color, box-shadow, -webkit-box-shadow;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -854,10 +860,10 @@ textarea {
 
 .card {
   display: block;
-  -webkit-transition: -webkit-box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover, .card:focus {
@@ -881,10 +887,10 @@ textarea {
   line-height: 1.56;
   color: white;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transition: -webkit-transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover .card__description,
