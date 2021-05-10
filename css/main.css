@@ -182,14 +182,14 @@ textarea {
   color: #2196f3;
 }
 
-.logo--header {
-  color: #000000;
+.logo--black {
+  color: black;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
 }
 
-.logo--footer {
+.logo--white {
   color: white;
 }
 
@@ -847,8 +847,8 @@ textarea {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * $card-set-gap);
-  margin-top: calc(-1 * $card-set-gap);
+  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
 }
 
 .portfolio__item {
